@@ -105,7 +105,7 @@ def ask_support_exchanges(intent, session):
     card_title = intent['name']
     session_attributes = {}
     should_end_session = False
-    speech_output = "Powered by open source tools built by eeth ventures,  latest prices are updated from all major crypto currency exchanges."
+    speech_output = "Latest prices are updated from all major crypto currency exchanges."
 
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
@@ -134,7 +134,7 @@ def ask_price_ether(intent, session):
         session_attributes = {}
         reprompt_text = None
 
-        speech_output = "Last Reported Price was " + str(dollars) + \
+        speech_output = "Last Price was " + str(dollars) + \
                             " dollars and " + str(cents) + " cents, reported by the " + exchange + " exchange."
         should_end_session = False
 
