@@ -55,11 +55,11 @@ def get_welcome_response():
 
     session_attributes = {}
     card_title = "Welcome"
-    speech_output = "Welcome to the Streaming Ether, an Open Data Channel Powered by Satori. "
+    speech_output = "Welcome to Streaming Ether, an Alexa Skill powered by Satori Lyve Data. "
 
     # If the user either does not reply to the welcome message or says something
     # that is not understood, they will be prompted again with this text.
-    reprompt_text = "To get the latest price, say Latest Price. "
+    reprompt_text = "To get the market prices of ether, you may ask for the latest prices. "
     should_end_session = False
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
@@ -105,7 +105,7 @@ def ask_support_exchanges(intent, session):
     card_title = intent['name']
     session_attributes = {}
     should_end_session = False
-    speech_output = "Powered by a Satori Streaming Data Channel, latest prices are updated from all major crypto currency exchanges."
+    speech_output = "Powered by open source tools built by eeth ventures,  latest prices are updated from all major crypto currency exchanges."
 
     return build_response(session_attributes, build_speechlet_response(
         card_title, speech_output, reprompt_text, should_end_session))
@@ -134,8 +134,8 @@ def ask_price_ether(intent, session):
         session_attributes = {}
         reprompt_text = None
 
-        speech_output = "The latest price of ether is " + str(dollars) + \
-                            " dollars and " + str(cents) + " cents as reported by  " + exchange + "."
+        speech_output = "Last Reported Price was " + str(dollars) + \
+                            " dollars and " + str(cents) + " cents, reported by the " + exchange + " exchange."
         should_end_session = False
 
         return build_response(session_attributes, build_speechlet_response(
