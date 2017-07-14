@@ -6,8 +6,8 @@ While this example specifically showcases the [Streaming Ether](https://www.sato
 
 ### Click Below for Video Demo
 <p align="center">
-<a href="https://youtu.be/KLJZy5wTkII" target="blank">
-<img src="http://img.youtube.com/vi/KLJZy5wTkII/0.jpg"
+<a href="https://youtu.be/KcvMe_i8qPh0" target="blank">
+<img src="http://img.youtube.com/vi/cvMe_i8qPh0/0.jpg"
  width=480 height=360 border=5></a>
 </p>
 
