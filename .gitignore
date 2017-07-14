@@ -100,5 +100,12 @@ ENV/
 # mypy
 .mypy_cache/
 
+# venv
+bin/
+include/
+share/
+pip-selfcheck.json
+
 # custom
 upload.sh
+test_connection.py

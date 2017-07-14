@@ -1,0 +1,32 @@
+{
+  "intents": [
+    { "intent": "AMAZON.CancelIntent",
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    { "intent": "AMAZON.HelpIntent",
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {  "intent": "AMAZON.StopIntent",
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    { "intent": "AskSupportedExchanges",
+      "name": "AskSupportedExchanges",
+      "samples": [
+        "what exchanges",
+        "where do you get your data"
+      ],
+      "slots": []
+    },
+    { "intent": "AskPriceEther",
+      "name": "AskPriceEther",
+      "samples": [
+        "ether",
+        "prices"
+      ],
+      "slots": []
+    }
+  ]
+}
