@@ -23,7 +23,7 @@ oslo.config==4.8.0
 oslo.i18n==3.16.0
 oslo.serialization==2.19.1
 oslo.utils==3.27.0
-paramiko==2.2.1
+paramiko==2.10.1
 pbr==1.10.0
 positional==1.1.1
 prettytable==0.7.2
